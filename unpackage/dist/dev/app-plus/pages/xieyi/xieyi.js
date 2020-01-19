@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"_p { font-size: 14px; color: #666; text-indent: 2em; margin: 0; }\n.",[1],"headtitle { color: #333; font-size: 16px; text-align: center; font-weight: bold; margin-bottom: 20px; }\n.",[1],"title { font-size: 16px; color: #333; font-weight: bold; }\n.",[1],"content { background: #fff; position: relative; margin: 0; overflow: inherit; padding: 12px; }\n",],undefined,{path:"./pages/xieyi/xieyi.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/xieyi/xieyi.wxml') } }));

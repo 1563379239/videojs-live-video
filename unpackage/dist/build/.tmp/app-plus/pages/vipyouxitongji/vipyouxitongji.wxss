@@ -1,0 +1,93 @@
+
+page {
+	background: white;
+}
+.lll{
+	margin-right: 10px;
+}
+.nodata {
+	font-size: 36rpx;
+	text-align: center;
+	color: #cccccc;
+	font-weight: 600;
+	margin-top: 40%;
+}
+.c view {
+	display: inline;
+}
+page {
+	background: #f3f5f7;
+}
+.r-item {
+	background: white;
+	margin-top: 20rpx;
+}
+.r-item>view {
+	border-bottom: 1rpx solid #f3f5f7;
+}
+.header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 50rpx;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.r-item .txt {
+	height: 70rpx;
+	line-height: 70rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	color: #F0AD4E;
+	font-size: 30rpx;
+	font-weight: 600;
+}
+.r-item .txt>view {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	line-height: 70rpx;
+	text-align: center;
+}
+.r-item .txt view:first-child {
+	border-right: 1px solid #f3f5f7;
+}
+.header>view {
+	
+	text-align: center;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 32rpx;
+}
+.table {
+	width: 100%;
+	padding: 0 !important;
+}
+.table .tr {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.tr .td {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+	border-right: 1px solid #f3f5f7;
+	font-size: 32rpx;
+}
+.tr .td:last-child {
+	border: none;
+}
+.tr:first-child {
+	border-bottom: 1px solid #f3f5f7;
+}
+

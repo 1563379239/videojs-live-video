@@ -1,0 +1,52 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "touristappid",
+	"projectname": "斗蛐蛐",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "上下积分",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/shangxiafenjilu/shangxiafenjilu"
+				},
+				{
+					"name": "游戏统计",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/youxitongji/youxitongji"
+				},
+				{
+					"name": "游戏记录",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/youxiajilu/youxiajilu"
+				}
+			]
+		}
+	}
+}

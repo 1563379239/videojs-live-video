@@ -1,0 +1,178 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__A0052B1",
+  "name": "小苹果",
+  "version": {
+    "name": "1.1.0",
+    "code": "100"
+  },
+  "description": "",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "VideoPlayer": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "usingComponents": true,
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png",
+          "ldpi": "unpackage/res/icons/48x48.png",
+          "mdpi": "unpackage/res/icons/48x48.png"
+        },
+        "ios": {
+          "appstore": "unpackage/res/icons/1024X1024.png",
+          "ipad": {
+            "app": "unpackage/res/icons/76x76.png",
+            "app@2x": "unpackage/res/icons/152x152.png",
+            "notification": "unpackage/res/icons/20x20.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "proapp@2x": "unpackage/res/icons/167x167.png",
+            "settings": "unpackage/res/icons/29x29.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "spotlight": "unpackage/res/icons/40x40.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png"
+          },
+          "iphone": {
+            "app@2x": "unpackage/res/icons/120x120.png",
+            "app@3x": "unpackage/res/icons/180x180.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "notification@3x": "unpackage/res/icons/60x60.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "settings@3x": "unpackage/res/icons/87x87.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png",
+            "spotlight@3x": "unpackage/res/icons/120x120.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "static/app/old/login_bg.png",
+          "xhdpi": "static/app/old/login_bg.png",
+          "xxhdpi": "static/app/old/login_bg.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "static/ios/2688x1242.png",
+            "retina35": "static/ios/640x960.png",
+            "retina40": "static/ios/640x1136.png",
+            "retina40l": "static/ios/640x1136-heng.png",
+            "retina47": "static/ios/750x1334.png",
+            "retina47l": "static/ios/750x1334-heng.png",
+            "retina55": "static/ios/1242x2208.png",
+            "retina55l": "static/ios/1242x2208-heng.png",
+            "iphonex": "static/ios/1125x2436.png",
+            "iphonexl": "static/ios/1125x2436-heng.png",
+            "portrait-896h@2x": "static/ios/1792x828.png",
+            "landscape-896h@2x": "static/ios/1792x828-heng.png",
+            "landscape-896h@3x": "static/ios/2688x1242-heng.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#d5d5d5",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.3.7",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
+    },
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "backgroundColor": "#d5d5d5",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/img/tab_live.png",
+          "selectedIconPath": "static/img/tab_live_selected.png",
+          "text": "游戏直播"
+        },
+        {
+          "pagePath": "pages/me/me",
+          "iconPath": "static/img/tab_user.png",
+          "selectedIconPath": "static/img/tab_user_selected.png",
+          "text": "个人中心"
+        },
+        {
+          "pagePath": "pages/callcenter/callcenter",
+          "iconPath": "static/img/tab_phone.png",
+          "selectedIconPath": "static/img/tab_phone_selected.png",
+          "text": "电话客服"
+        }
+      ],
+      "height": "50px"
+    }
+  }
+}

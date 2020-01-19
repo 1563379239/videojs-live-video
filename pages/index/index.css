@@ -1,0 +1,184 @@
+
+.popLayout{
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.popContent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+.statusbar { // 状态栏高度
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  height: var(--status-bar-height);
+}
+
+.JifenImgBut{
+	width: 140upx;
+	height: 140upx;
+	align-self: center;
+}
+.jifenItemTextStr{
+	color: #FF0000;align-self: center;
+}
+.jifenItemText{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+}
+.jifenItem{
+	width: 182upx;
+	position: relative;
+	justify-content:pace-around;
+	margin-top: 10upx;
+	margin-bottom: 10upx;
+}
+
+.jifenItemImg{
+	width: 182upx;display: flex;justify-content: center;
+}
+
+.jifenItemLayout{
+	flex-wrap: wrap !important;
+}
+
+.titlelayout{
+	background-color: #8F8F94;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	height: 82upx;
+}
+
+.titleL{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	align-self: center;
+	width: 100%;
+	margin-left: 14upx;
+}
+.left1{
+	font-size: 19px;
+	color: #d5d5d5;
+}
+.titleR{
+	display: flex;
+	flex-direction: row;
+	width: 170upx;
+	margin-right: 14upx;
+}
+.titleRBut{
+	background-color: transparent;
+	border: 2px solid #FFFFFF;
+	font-size: 17px;
+	color: #FFFFFF;
+	padding: 1px 8px 1px 8px;
+	border-radius: 8px;
+	align-self: center;
+}
+
+/* 跑马灯字符串-S */
+.marquee{
+	color: #b0b0b0;
+	font-size: 18px;
+}
+.kaipen{
+	margin: 4upx 10upx 4upx 10upx;
+}
+.videoLayout{
+	height: 250upx;
+}
+
+
+
+/*  */
+
+
+.myli_item_l{
+	margin: 15upx 25upx 8upx 15upx;
+}
+
+.myli_item_title
+{
+}
+
+.myLi{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.myli_item_r{
+	flex: 1;
+	margin: 10upx 0upx;
+}
+
+.myli_item_r_content{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 8upx 3upx;
+}
+.myli_item_r_flex{
+	flex: 1;
+}
+.myli_item_but{
+	width: 120upx;
+}
+
+.mybut_fang,.mybut_jie
+{
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	width: 60upx;
+	padding-left: 10px;
+	display: inline-block;
+	
+}
+
+.mybut_fang
+{
+	background-color: red;
+}
+
+.mybut_jie{
+	background-color: #DEB887;
+}
+
+.myLiR,.myLiL {
+	width: 50%;display: 
+	flex;flex-wrap: nowrap; 
+	border-bottom: 1px solid #D5D5D5;
+}
+.myUl{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+	
+	.mainL{
+		width: 100%;
+	}
+	.redBg{
+		background-color: red ;
+	}
+	.blueBg{
+		background-color: blue;
+	}
+	.mainLayout {
+		font-size: 15px;
+	}

@@ -1,0 +1,7 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "my-marquee": "/components/my-marquee/my-marquee",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

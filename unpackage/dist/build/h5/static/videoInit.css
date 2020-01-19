@@ -1,0 +1,30 @@
+.video-js .vjs-mute-control{
+	padding: 0;
+	background: none;
+	border: none;
+}
+.video-js .vjs-control{
+	background: none;
+	border: none;
+}
+.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder:before, .vjs-icon-pause:before{
+	color: white;
+	line-height: 30px;
+}
+.video-js .vjs-mute-control .vjs-icon-placeholder:before, .vjs-icon-volume-high:before{
+	color: white;
+	line-height: 30px;
+}
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder:before, .vjs-icon-fullscreen-enter:before{
+	color: white;
+	line-height: 30px;
+}
+.el-pagination{
+	display: flex;
+}
+.pages-login-login .el-message--error{
+	font-size: 20px!important;
+}
+.el-message__icon{
+	font-size: 20px!important;
+}

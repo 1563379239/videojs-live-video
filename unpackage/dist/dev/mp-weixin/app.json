@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/callcenter/callcenter",
+    "pages/main/main",
+    "pages/xieyi/xieyi",
+    "pages/youxiajilu/youxiajilu",
+    "pages/youxitongji/youxitongji",
+    "pages/shangxiafenjilu/shangxiafenjilu",
+    "pages/xiugaimima/xiugaimima"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "斗蛐蛐",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#d5d5d5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tab_live.png",
+        "selectedIconPath": "static/img/tab_live_selected.png",
+        "text": "游戏直播"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/img/tab_user.png",
+        "selectedIconPath": "static/img/tab_user_selected.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/callcenter/callcenter",
+        "iconPath": "static/img/tab_phone.png",
+        "selectedIconPath": "static/img/tab_phone_selected.png",
+        "text": "电话客服"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

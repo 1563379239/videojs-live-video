@@ -1,0 +1,71 @@
+
+.box {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		white-space: nowrap;
+		overflow: hidden;
+		position: relative;
+		width: 750rpx;
+		height: 24px;
+		/* background: red; */
+}
+.box .inner {
+		/* width: 750upx;
+		height: 24px; */
+		line-height: 24px;
+		font-family: sans-serif;
+		/* font-weight: bold; */
+		white-space: nowrap;
+		overflow: hidden;
+		position: absolute;
+		-webkit-transform:translateX(63%);
+		    -ms-transform:translateX(63%);
+		        transform:translateX(63%);
+		/* color: white; */
+		-webkit-animation: marquees 30s linear infinite;
+		        animation: marquees 30s linear infinite;
+}
+@-webkit-keyframes marquees {
+from {
+			-webkit-transform:translateX(63%);
+			        transform:translateX(63%);
+}
+to {
+			-webkit-transform:translateX(-105%);
+			        transform:translateX(-105%);
+}
+}
+@keyframes marquees {
+from {
+			-webkit-transform:translateX(63%);
+			        transform:translateX(63%);
+}
+to {
+			-webkit-transform:translateX(-105%);
+			        transform:translateX(-105%);
+}
+}
+
+	/* .box .inner:first-child {
+
+		transform-origin: left;
+	}
+
+	.box .inner:last-child {
+
+		transform-origin: right;
+	}
+
+	.box .inner span {
+		position: absolute;
+		animation: marquee 30s linear infinite;
+	}
+	.box .inner:first-child span {
+		animation-delay: 5s;
+		left: -150%;
+	} */
+
+	
+

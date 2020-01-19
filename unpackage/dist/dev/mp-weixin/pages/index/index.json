@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-marquee": "/components/my-marquee/my-marquee"
+  }
+}

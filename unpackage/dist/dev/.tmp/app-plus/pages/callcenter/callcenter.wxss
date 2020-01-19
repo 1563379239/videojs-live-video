@@ -1,0 +1,49 @@
+
+.line1{
+	margin-top: 70rpx;
+	margin-bottom: 50rpx;
+}
+.line3{
+	margin-top: 40rpx;
+	margin-bottom: 70rpx;
+}
+.line5{
+	margin-top: 40rpx;
+}
+.kefu_img1{
+	width: 180rpx;
+	height: 180rpx;
+}
+.kefu_call{
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 10rpx;
+}
+.kefu_qr{
+	width: 200rpx;
+	height: 200rpx;
+}
+.kefuInfo{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	/* background-color: yellow; */
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 18px;
+}
+.center{
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+
